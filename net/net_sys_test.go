@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/test/sysconf"
-	"github.com/guardtime/goksi/test/utils"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/test/sysconf"
+	"github.com/vincentracine/goksi/test/utils"
 )
 
 var (

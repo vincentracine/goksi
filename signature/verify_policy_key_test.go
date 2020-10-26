@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/publications"
-	"github.com/guardtime/goksi/signature/verify/result"
-	"github.com/guardtime/goksi/test"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/publications"
+	"github.com/vincentracine/goksi/signature/verify/result"
+	"github.com/vincentracine/goksi/test"
 )
 
 func TestUnitKeyBasedVerificationPolicy(t *testing.T) {

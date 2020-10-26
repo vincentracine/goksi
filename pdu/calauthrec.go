@@ -20,7 +20,7 @@
 package pdu
 
 import (
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // PublicationData returns the published data, or error if not present.

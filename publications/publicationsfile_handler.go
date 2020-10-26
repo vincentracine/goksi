@@ -32,8 +32,8 @@ import (
 
 	"github.com/fullsailor/pkcs7"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
 )
 
 // FileHandler is publications file (see File) processor.

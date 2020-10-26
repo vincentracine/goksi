@@ -11,11 +11,11 @@ if [[ -n "$FILES" ]]; then
 fi
 
 if hash goimports 2>/dev/null; then
-    FILES=$(goimports -e -l -local=github.com/guardtime/goksi $GO_FILES)
+    FILES=$(goimports -e -l -local=github.com/vincentracine/goksi $GO_FILES)
 
     if [[ -n "$FILES" ]]; then
         echo "goimports errors found, please run:"
-        echo " goimports -e -w -local=github.com/guardtime/goksi $FILES"
+        echo " goimports -e -w -local=github.com/vincentracine/goksi $FILES"
         exit 1
     fi
 else

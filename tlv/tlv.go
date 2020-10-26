@@ -35,7 +35,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // Marshal returns the binary TLV encoding of v.

@@ -25,7 +25,7 @@
 // serialized along with the tree hashes without the need to store KSI signatures for every added record.
 package listener
 
-import "github.com/guardtime/goksi/hash"
+import "github.com/vincentracine/goksi/hash"
 
 // RecordHashListener is notified whenever a new document hash is added to a tree (see (Tree).AddNode()).
 type RecordHashListener interface {

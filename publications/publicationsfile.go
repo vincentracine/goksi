@@ -32,12 +32,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/net"
-	"github.com/guardtime/goksi/pdu"
-	"github.com/guardtime/goksi/templates"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/net"
+	"github.com/vincentracine/goksi/pdu"
+	"github.com/vincentracine/goksi/templates"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 const (
@@ -118,7 +118,7 @@ func FileFromFile(path string) FileBuilder {
 			return errors.New(errors.KsiIoError).SetExtError(err).
 				AppendMessage("Unable get file stats.")
 		}
-		if info.Size() > math.MaxUint32 {
+		if info.Size() > math.MaxInt32 {
 			return errors.New(errors.KsiInvalidFormatError).
 				AppendMessage("Publications file exceeds max size.")
 		}
@@ -146,7 +146,7 @@ func FileFromBytes(raw []byte) FileBuilder {
 			return errors.New(errors.KsiInvalidArgumentError).AppendMessage("Missing publications file base object.")
 		}
 
-		if len(raw) > math.MaxUint32 {
+		if len(raw) > math.MaxInt32 {
 			return errors.New(errors.KsiInvalidFormatError).
 				AppendMessage("Publications file exceeds max size.")
 		}
@@ -165,7 +165,7 @@ func FileFromReader(r io.Reader) FileBuilder {
 			return errors.New(errors.KsiInvalidArgumentError).AppendMessage("Missing publications file base object.")
 		}
 
-		lr := io.LimitReader(r, math.MaxUint32+1)
+		lr := io.LimitReader(r, math.MaxInt32+1)
 		raw, err := ioutil.ReadAll(lr)
 		if err != nil {
 			return errors.New(errors.KsiIoError).SetExtError(err).
@@ -195,7 +195,7 @@ func FileFromURL(url string) FileBuilder {
 		if err != nil {
 			return errors.KsiErr(err, errors.KsiNetworkError).AppendMessage("Network client returned error.")
 		}
-		if len(raw) > math.MaxUint32 {
+		if len(raw) > math.MaxInt32 {
 			return errors.New(errors.KsiInvalidFormatError).
 				AppendMessage("Publications file exceeds max size.")
 		}

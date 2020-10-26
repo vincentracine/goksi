@@ -25,7 +25,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // Imprint represents a hash value and consists of a one-octet hash function identifier concatenated with

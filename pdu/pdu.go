@@ -23,10 +23,10 @@ package pdu
 import (
 	"context"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/templates"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/templates"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 func init() {

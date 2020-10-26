@@ -22,8 +22,8 @@ package tlv
 import (
 	"fmt"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
 )
 
 // Uint64E is getter for uint64. If TLV is empty, 0 is returned. If TLV value is larger than 8 bits, error is returned.

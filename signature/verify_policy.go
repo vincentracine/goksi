@@ -22,9 +22,9 @@ package signature
 import (
 	"fmt"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/signature/verify/result"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/signature/verify/result"
 )
 
 // PolicyRule describes a state for a certain Rule result.

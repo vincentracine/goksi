@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/guardtime/goksi/hash"
+	"github.com/vincentracine/goksi/hash"
 )
 
 type (

@@ -22,13 +22,13 @@ package treebuilder
 import (
 	"testing"
 
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/net"
-	"github.com/guardtime/goksi/service"
-	"github.com/guardtime/goksi/signature"
-	"github.com/guardtime/goksi/test"
-	"github.com/guardtime/goksi/test/sysconf"
-	"github.com/guardtime/goksi/test/utils"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/net"
+	"github.com/vincentracine/goksi/service"
+	"github.com/vincentracine/goksi/signature"
+	"github.com/vincentracine/goksi/test"
+	"github.com/vincentracine/goksi/test/sysconf"
+	"github.com/vincentracine/goksi/test/utils"
 )
 
 func TestSysTreeBuilderTcp(t *testing.T) {

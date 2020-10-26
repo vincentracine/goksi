@@ -25,8 +25,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 type tlvTemplates map[string]*tlv.Template
@@ -40,7 +40,7 @@ var (
 )
 
 // Register registers a new TLV template for an object.
-// Returns an error in case the template description is incorrect (see github.com/guardtime/goksi/tlv
+// Returns an error in case the template description is incorrect (see github.com/vincentracine/goksi/tlv
 // package documentation for help).
 func Register(obj interface{}, name string, tag uint16) error {
 	return getRegistry().addNewTemplate(reflect.TypeOf(obj), name, tag)

@@ -352,16 +352,16 @@ This product includes package github.com/fullsailor/pkcs7.
 package ksi
 
 import (
-	_ "github.com/guardtime/goksi/blocksigner"
-	_ "github.com/guardtime/goksi/errors"
-	_ "github.com/guardtime/goksi/hash"
-	_ "github.com/guardtime/goksi/hmac"
-	_ "github.com/guardtime/goksi/log"
-	_ "github.com/guardtime/goksi/net"
-	_ "github.com/guardtime/goksi/pdu"
-	_ "github.com/guardtime/goksi/publications"
-	_ "github.com/guardtime/goksi/service"
-	_ "github.com/guardtime/goksi/signature"
-	_ "github.com/guardtime/goksi/tlv"
-	_ "github.com/guardtime/goksi/treebuilder"
+	_ "github.com/vincentracine/goksi/blocksigner"
+	_ "github.com/vincentracine/goksi/errors"
+	_ "github.com/vincentracine/goksi/hash"
+	_ "github.com/vincentracine/goksi/hmac"
+	_ "github.com/vincentracine/goksi/log"
+	_ "github.com/vincentracine/goksi/net"
+	_ "github.com/vincentracine/goksi/pdu"
+	_ "github.com/vincentracine/goksi/publications"
+	_ "github.com/vincentracine/goksi/service"
+	_ "github.com/vincentracine/goksi/signature"
+	_ "github.com/vincentracine/goksi/tlv"
+	_ "github.com/vincentracine/goksi/treebuilder"
 )

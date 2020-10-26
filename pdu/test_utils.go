@@ -22,8 +22,8 @@ package pdu
 import (
 	"path/filepath"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
 )
 
 var (

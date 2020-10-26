@@ -23,9 +23,9 @@ import (
 	stdhash "hash"
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/test/utils"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/test/utils"
 )
 
 var (

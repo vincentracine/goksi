@@ -22,7 +22,7 @@ package tlv
 import (
 	"fmt"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // Encoder keeps the TLV serialization state.

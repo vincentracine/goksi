@@ -26,8 +26,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/signature"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/signature"
 )
 
 type (

@@ -20,7 +20,7 @@
 package pdu
 
 import (
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // RequestHeaderFunc is request header manipulation callback which is executed on every request prior to serializing

@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/guardtime/goksi/log"
+	"github.com/vincentracine/goksi/log"
 )
 
 // Case is a test case.

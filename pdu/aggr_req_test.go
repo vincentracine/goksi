@@ -22,10 +22,10 @@ package pdu
 import (
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/test"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/test"
 )
 
 func TestUnitAggrReq(t *testing.T) {

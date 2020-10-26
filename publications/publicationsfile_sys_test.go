@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/test"
-	"github.com/guardtime/goksi/test/sysconf"
-	"github.com/guardtime/goksi/test/utils"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/test"
+	"github.com/vincentracine/goksi/test/sysconf"
+	"github.com/vincentracine/goksi/test/utils"
 )
 
 var (

@@ -23,7 +23,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 func createAndTestIntTlv(t *testing.T, value uint64, payload []byte) {

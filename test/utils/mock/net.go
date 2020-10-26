@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"sync/atomic"
 
-	"github.com/guardtime/goksi/log"
+	"github.com/vincentracine/goksi/log"
 )
 
 // RequestCounterClient implements net.(Client) interface.

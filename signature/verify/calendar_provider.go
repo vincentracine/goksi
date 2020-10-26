@@ -22,7 +22,7 @@ package verify
 import (
 	"time"
 
-	"github.com/guardtime/goksi/pdu"
+	"github.com/vincentracine/goksi/pdu"
 )
 
 // CalendarProvider is used to deliver calendar hash chains from the server to the client.

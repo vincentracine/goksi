@@ -23,11 +23,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/pdu"
-	"github.com/guardtime/goksi/publications"
-	"github.com/guardtime/goksi/signature"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/pdu"
+	"github.com/vincentracine/goksi/publications"
+	"github.com/vincentracine/goksi/signature"
 )
 
 // Extender is the abstraction of the extender service.

@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/templates"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/templates"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 // NewMetaData returns a new metadata instance. Additional value can be applied via optionals.

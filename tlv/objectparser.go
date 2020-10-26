@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // TlvObj is interface that provides custom functionality to get object from TLV, or to encode object as TLV.

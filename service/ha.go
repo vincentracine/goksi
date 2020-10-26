@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/pdu"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/pdu"
 )
 
 const (

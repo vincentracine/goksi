@@ -28,11 +28,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/publications"
-	"github.com/guardtime/goksi/service"
-	"github.com/guardtime/goksi/signature"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/publications"
+	"github.com/vincentracine/goksi/service"
+	"github.com/vincentracine/goksi/signature"
 )
 
 type argVal int

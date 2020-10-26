@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/test"
-	"github.com/guardtime/goksi/test/utils"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/test"
+	"github.com/vincentracine/goksi/test/utils"
 )
 
 func TestUnitCalChain(t *testing.T) {

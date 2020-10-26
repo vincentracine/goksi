@@ -27,8 +27,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
 )
 
 // CertID returns certificate ID, or error if not present.

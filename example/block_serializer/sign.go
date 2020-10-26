@@ -27,12 +27,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/guardtime/goksi/blocksigner"
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/service"
-	"github.com/guardtime/goksi/treebuilder"
+	"github.com/vincentracine/goksi/blocksigner"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/service"
+	"github.com/vincentracine/goksi/treebuilder"
 )
 
 const (

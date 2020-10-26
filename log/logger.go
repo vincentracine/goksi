@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // Priority is the log level

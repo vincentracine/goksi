@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
 )
 
 func isDefaultOptionsOk(opt *templateOptions) bool {

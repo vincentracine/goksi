@@ -1,4 +1,4 @@
-module github.com/guardtime/goksi
+module github.com/vincentracine/goksi
 
 go 1.13
 

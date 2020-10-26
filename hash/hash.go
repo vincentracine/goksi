@@ -39,7 +39,7 @@ import (
 	_ "crypto/sha256"
 	_ "crypto/sha512"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // Algorithm is the hash functions identifier.

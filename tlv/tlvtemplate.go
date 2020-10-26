@@ -27,7 +27,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // templateIndex is a wrapper type for TLV object index under parent TLV.

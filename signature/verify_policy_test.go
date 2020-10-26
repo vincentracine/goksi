@@ -24,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/signature/verify/reserr"
-	"github.com/guardtime/goksi/signature/verify/result"
-	"github.com/guardtime/goksi/test"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/signature/verify/reserr"
+	"github.com/vincentracine/goksi/signature/verify/result"
+	"github.com/vincentracine/goksi/test"
 )
 
 func TestUnitVerificationPolicy(t *testing.T) {

@@ -26,8 +26,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
 )
 
 // AggregationTime returns aggregation chain aggregation time.

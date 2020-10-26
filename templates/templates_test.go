@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 func TestEmptyRegistry(t *testing.T) {

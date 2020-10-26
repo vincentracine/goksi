@@ -26,8 +26,8 @@ import (
 	"net/url"
 	"reflect"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 // Client is abstract network client.

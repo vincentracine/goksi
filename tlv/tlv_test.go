@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/test/utils"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/test/utils"
 )
 
 func isExpectedTlv(t *testing.T, tlv *Tlv, tag uint16, value []byte, raw []byte, n, f bool, is16 bool) {

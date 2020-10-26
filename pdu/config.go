@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/log"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/log"
 )
 
 // MaxLevel returns maximum level value that the nodes in the client's aggregation tree are allowed to have.

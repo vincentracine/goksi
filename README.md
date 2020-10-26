@@ -100,7 +100,7 @@ And another example on how to validate the signature created above using a publi
 	}
 ```
 
-The API full reference is available on [GoDoc](http://godoc.org/github.com/guardtime/goksi).
+The API full reference is available on [GoDoc](http://godoc.org/github.com/vincentracine/goksi).
 
 
 ## Dependencies ##

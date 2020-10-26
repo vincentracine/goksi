@@ -22,9 +22,9 @@ package pdu
 import (
 	"encoding/hex"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 // ClientID returns string representation of the legacy ID octet string.

@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // DataHasher is the data hash computation object.

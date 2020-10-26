@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 // HashChainLinkIdentityType is hash chain link identity type.

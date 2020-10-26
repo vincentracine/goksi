@@ -24,7 +24,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/guardtime/goksi/test/sysconf"
+	"github.com/vincentracine/goksi/test/sysconf"
 )
 
 func StringToBin(s string) []byte {

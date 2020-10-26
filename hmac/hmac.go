@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/guardtime/goksi/errors"
-	ksihash "github.com/guardtime/goksi/hash"
+	"github.com/vincentracine/goksi/errors"
+	ksihash "github.com/vincentracine/goksi/hash"
 )
 
 // Hasher is the message authentication computation object.

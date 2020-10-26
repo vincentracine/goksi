@@ -24,13 +24,13 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/pdu"
-	"github.com/guardtime/goksi/publications"
-	"github.com/guardtime/goksi/signature/verify/reserr"
-	"github.com/guardtime/goksi/signature/verify/result"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/pdu"
+	"github.com/vincentracine/goksi/publications"
+	"github.com/vincentracine/goksi/signature/verify/reserr"
+	"github.com/vincentracine/goksi/signature/verify/result"
 )
 
 // Rule is the verification Rule common interface.

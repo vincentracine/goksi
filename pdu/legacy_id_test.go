@@ -22,9 +22,9 @@ package pdu
 import (
 	"testing"
 
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/test"
-	"github.com/guardtime/goksi/tlv"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/test"
+	"github.com/vincentracine/goksi/tlv"
 )
 
 func TestUnitLegacyId(t *testing.T) {

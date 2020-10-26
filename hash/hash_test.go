@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/test/utils"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/test/utils"
 )
 
 func verifyHashFuncID(t *testing.T, hshFunc Algorithm, expected byte) {

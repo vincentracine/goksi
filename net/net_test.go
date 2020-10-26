@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/guardtime/goksi/pdu"
+	"github.com/vincentracine/goksi/pdu"
 )
 
 func TestUnitNetClientHTTP(t *testing.T) {

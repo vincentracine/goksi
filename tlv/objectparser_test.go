@@ -25,8 +25,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
 )
 
 func createTemplateParseTlv(t *testing.T, tlvSlice []byte, structType reflect.Type) (*Template, *Tlv) {

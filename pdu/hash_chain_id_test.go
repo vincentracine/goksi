@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/guardtime/goksi/log"
-	"github.com/guardtime/goksi/test"
+	"github.com/vincentracine/goksi/log"
+	"github.com/vincentracine/goksi/test"
 )
 
 func TestUnitHashChainId(t *testing.T) {

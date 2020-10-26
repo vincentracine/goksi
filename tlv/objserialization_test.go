@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/guardtime/goksi/errors"
+	"github.com/vincentracine/goksi/errors"
 )
 
 func newInt(value uint64) *uint64 { return &value }

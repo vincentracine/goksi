@@ -22,10 +22,10 @@ package service
 import (
 	"fmt"
 
-	"github.com/guardtime/goksi/errors"
-	"github.com/guardtime/goksi/hash"
-	"github.com/guardtime/goksi/net"
-	"github.com/guardtime/goksi/pdu"
+	"github.com/vincentracine/goksi/errors"
+	"github.com/vincentracine/goksi/hash"
+	"github.com/vincentracine/goksi/net"
+	"github.com/vincentracine/goksi/pdu"
 )
 
 type (
